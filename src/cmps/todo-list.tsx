@@ -1,7 +1,6 @@
 import React from "react";
 import { Todo } from "../model";
 import {TodoPrev} from "./todo-prev";
-import { Droppable } from "react-beautiful-dnd";
 
 interface props {
   todos: Array<Todo>;
