@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import { MdDone } from "react-icons/md";
 import { Todo } from "../model";
+import { Draggable } from "react-beautiful-dnd";
 
 export const TodoPrev: React.FC<{
   index: number;
@@ -39,10 +40,9 @@ export const TodoPrev: React.FC<{
   };
 
   return (
-   
         <form
           onSubmit={(e) => handleEdit(e, todo.id)}
-          className={`todos__single `}
+          className='todos__single'
         >
           {edit ? (
             <input
@@ -75,7 +75,7 @@ export const TodoPrev: React.FC<{
             </span>
           </div>
         </form>
-     
+      
   );
 };
 

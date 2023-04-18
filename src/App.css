@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ecceec;
+  background-color: #e8e7e8;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -49,7 +49,7 @@
   right: 0px;
   border: none;
   font-size: 15px;
-  background-color: #be75be;
+  background-color: #da74da;
   color: white;
   transition: 0.2s all;
   box-shadow: 0 0 10px rgb(209, 207, 207);
@@ -79,7 +79,7 @@
   flex-direction: column;
   width: 47.5%;
   padding: 15px;
-  background-color: rgb(237, 171, 237);
+  background-color: #da74da;
 }
 
 .dragactive {
@@ -118,7 +118,7 @@ li{
 
 .todos__single:hover {
   box-shadow: 0 0 5px black;
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
 }
 
 .todos__single--text {
