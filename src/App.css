@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2f74c0;
+  background-color: #ecceec;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -36,7 +36,7 @@
 }
 
 .input__box:focus {
-  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5); */
   outline: none;
 }
 
@@ -49,14 +49,14 @@
   right: 0px;
   border: none;
   font-size: 15px;
-  background-color: #2f74c0;
+  background-color: #be75be;
   color: white;
   transition: 0.2s all;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px rgb(209, 207, 207);
 }
 
 .input_submit:hover {
-  background-color: #388ae2;
+  background-color: #e310c4;
 }
 
 .input_submit:active {
@@ -73,12 +73,13 @@
 }
 
 .todos {
+  margin-top: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   width: 47.5%;
   padding: 15px;
-  background-color: rgb(50, 195, 205);
+  background-color: rgb(237, 171, 237);
 }
 
 .dragactive {
@@ -98,13 +99,16 @@
   /* text-align: center; */
   color: white;
 }
-
+li{
+  list-style-type: none;
+}
 .todos__single {
   display: flex;
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-color: #f2e2f0;
+  /* background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg"); */
   transition: 0.2s;
 }
 
@@ -133,7 +137,9 @@
   font-size: 25px;
   cursor: pointer;
 }
-
+s{
+  color:gray;
+}
 @media (max-width: 1100px) {
   .todos {
     width: 45%;
